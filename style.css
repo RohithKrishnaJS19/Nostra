@@ -50,7 +50,7 @@ body {
 
 .home {
     text-decoration: none;
-    color: black;
+    color          : black;
 }
 
 #leftarrow {
@@ -493,35 +493,38 @@ body {
     font-size: 30px;
 }
 
-.sidenavbar{
+.sidenavbar {
     background-color: #1D232C;
-    color: white;
-    width:50%;
-    height: 100vh;
-    position: fixed;
-    z-index: 101;
-    top:0px;
-    left:-50%;
-    transition: 1s;
+    color           : white;
+    width           : 50%;
+    height          : 100vh;
+    position        : fixed;
+    z-index         : 101;
+    top             : 0px;
+    left            : -50%;
+    transition      : 1s;
 }
-.sidehome{
-    color:white;
+
+.sidehome {
+    color          : white;
     text-decoration: none;
 }
-.sidenavbar__component{
-    height: 100%;
-    display: flex;
-    gap:50px;
-    flex-direction: column;
-    align-items: center;
+
+.sidenavbar__component {
+    height         : 100%;
+    display        : flex;
+    gap            : 50px;
+    flex-direction : column;
+    align-items    : center;
     justify-content: center;
-    
+
 }
-.X{
-    position: absolute;
-    right:50px;
-    top:50px;
-    font-weight:bold ;
+
+.X {
+    position   : absolute;
+    right      : 50px;
+    top        : 50px;
+    font-weight: bold;
 }
 
 @media screen and (max-width:600px) {
@@ -674,25 +677,42 @@ body {
     .Collection_section1 input {
         margin: 5px;
     }
-    .Collection_section1 h1{
+
+    .Collection_section1 h1 {
         font-size: 20px;
     }
-    .Collection_section1{
-        padding:10px;
-        width: 25%;
+
+    .Collection_section1 {
+        padding: 10px;
+        width  : 25%;
     }
-    .product{
+
+    .product {
         flex-basis: 41.9%;
-        
+
     }
-    .product h2{
+
+    .product h2 {
         font-size: 16px;
     }
-    .Collection_section2{
+
+    .Collection_section2 {
         padding: 0px;
     }
-    .Search{
+
+    .Search {
         margin: 10px;
     }
-   
+
+    .heart {
+        font-size: 20px;
+    }
+
+    .redheart {
+        font-size: 20px;
+    }
+
+    .sale {
+        font-size: 16px;
+    }
 }
